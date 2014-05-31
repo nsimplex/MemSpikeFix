@@ -16,3 +16,5 @@ or
 	out of memory
 
 but may also happen silently, with the game simply crashing with no meaningful information printed to log.txt.
+
+As a side effect, this fix also prevents the large slowdown in the game's startup time caused by having large mods enabled.
