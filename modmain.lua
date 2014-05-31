@@ -1,0 +1,2 @@
+modimport "memspikefix.lua"
+ApplyMemFixGlobally()
