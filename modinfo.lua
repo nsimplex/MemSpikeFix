@@ -1,6 +1,6 @@
 name = "Memory Spike Fix"
 id = "memspikefix"
-version = "0.6"
+version = "0.7"
 author = "simplex"
 forumthread = ""
 
