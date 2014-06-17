@@ -13,6 +13,7 @@ local function MakeLazyLoader(prefab)
 	local current_fn
 
 	local function new_fn(...)
+		_G.TheSim:UnloadPrefabs {prefab.name}
 		_G.TheSim:LoadPrefabs {prefab.name}
 
 		-- Ensures this only runs once, for efficiency.
